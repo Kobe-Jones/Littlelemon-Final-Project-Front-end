@@ -12,23 +12,23 @@ body {
 
 
 header {
-  background-color: #2c3333;
+  background-color: #112c2c;
   padding: 2em;
-  color: white;
+  color: rgb(186, 156, 156);
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 header h1 {
-  color: #F4CE14;
+  color: #d8d849;
   font-family: serif;
   font-size: 40pt;
   margin-bottom: 10px;
 }
 
 header button {
-  background-color: #F4CE14;
+  background-color: #444132;
   padding: 1rem;
   border-radius: 16px;
   font-size: 20pt;
@@ -52,16 +52,16 @@ nav ul {
 nav ul li a {
   padding: 10px 15px;
   text-decoration: none;
-  color: black;
+  color: rgb(163, 18, 18);
   display: inline-block;
 }
 
 nav ul li a:hover {
-  color: #395864;
+  color: #3389aa;
 }
 
 main {
-  background-color: #395864;
+  background-color: #249ece;
   text-align: center;
   padding: 2em;
 }
@@ -73,7 +73,7 @@ main {
 }
 
 .specials-header button {
-  background-color: #F4CE14;
+  background-color: #ffff00;
   padding: 1rem;
   border-radius: 16px;
   font-size: 20pt;
@@ -129,7 +129,7 @@ main {
   /* height: 200px; */
   padding: 10px;
   margin: 5px;
-  background-color: #cccccc;
+  background-color: #cccccc7d;
   text-align: center;
 }
 
@@ -138,7 +138,7 @@ main {
 }
 
 .checked {
-  color: orange;
+  color: rgb(255, 0, 208);
 }
 
 #testimonials img {
@@ -188,13 +188,13 @@ div.ratings .fa-star {
 .booking-container {
   margin: 0 auto;
   text-align: center;
-  background-color: #495E57;
+  background-color: #2d8c6c;
   padding: 20px;
 }
 
 .booking-container label {
   display: block;
-  color: #cccccc;
+  color: #d40a0aa1;
 }
 
 .booking-container input {
@@ -203,13 +203,13 @@ div.ratings .fa-star {
 }
 
 .booking-container header {
-  background-color: #495E57;
+  background-color: #22936d;
   ;
 }
 
 .booking-container h3 {
-  background-color: #F4CE14;
-  color: #495E57;
+  background-color: #5f427b;
+  color: #000000;
   width: auto;
   padding: 0.75em;
   border-radius: 16px;
@@ -218,8 +218,8 @@ div.ratings .fa-star {
 .booking-container button {
   display: block;
   margin: 10px auto;
-  background-color: #F4CE14;
-  color: #495E57;
+  background-color: #3f3e35;
+  color: #2eb487;
   font-size: large;
   border-radius: 16px;
 }
@@ -227,7 +227,7 @@ div.ratings .fa-star {
 
 
 footer {
-  background-color: #a5c9ca;
+  background-color: #112c2c;
   text-align: center;
   padding: 2em;
   display: flex;
@@ -245,11 +245,11 @@ footer {
 
 #doormat a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 0, 0);
 }
 
 #doormat a:hover {
-  color: #395864;
+  color: #4495b5;
 }
 
 code {
@@ -277,7 +277,7 @@ code {
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #27353f;
   color: white;
 }
 
@@ -285,12 +285,12 @@ code {
   display: grid;
   column-gap: 50px;
   grid-template-columns: auto auto auto;
-  background-color: white;
+  background-color: rgb(88, 36, 36);
   padding: 10px;
 }
 
 .grid-item {
-  background-color: rgba(216, 44, 44, 0.432);
+  background-color: rgba(130, 83, 83, 0.432);
 
   padding: 20px;
   font-size: 30px;
